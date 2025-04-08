@@ -1,5 +1,5 @@
 import multer from 'multer';
 
-const storage = multer({dest:'filefolder'});
+const storage = multer({dest:'fileFolder'});
 
 export default storage;
