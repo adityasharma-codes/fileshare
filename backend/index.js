@@ -10,7 +10,7 @@ const PORT = process.env.PORT;
 
 app.use(cors());
 
-app.use('/',router);
+app.use('/api',router);
 
 const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname,'/frontend/dist')));
