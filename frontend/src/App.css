@@ -1,9 +1,9 @@
-.container{
-  background-color:#4F7942;
-  width:100vw;
-  height:100vh;
-  display:flex;
-  justify-content:center;
+.container {
+  background-color: olivedrab;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
